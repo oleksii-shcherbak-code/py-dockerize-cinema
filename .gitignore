@@ -1,13 +1,26 @@
-Dockerfile
-docker-compose.yaml
-.dockerignore
-.git
-.gitignore
-.venv
-__pycache__
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Python artifacts
+__pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Databases
 *.sqlite3
-.env
+
+# Logs
 *.log
+
+# Environment files
+.env
+
+# IDE configs
 .idea/
-.github/
+.vscode/
+
+# OS-specific
+.DS_Store

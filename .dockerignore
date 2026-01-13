@@ -1,13 +1,31 @@
-Dockerfile
-docker-compose.yaml
-.dockerignore
+# Git и CI
 .git
 .gitignore
-.venv
-__pycache__
-*.pyc
-*.sqlite3
-.env
-*.log
-.idea/
 .github/
+
+# Виртуальные окружения
+.venv/
+env/
+venv/
+
+# Python артефакты
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Базы данных (локальные)
+*.sqlite3
+
+# Логи
+*.log
+
+# Файлы окружения
+.env
+
+# IDE и редакторы
+.idea/
+.vscode/
+
+# OS-specific
+.DS_Store
